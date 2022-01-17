@@ -79,11 +79,14 @@
     <Compile Include="Assets\Scripts\GameSystem\Views\PlayerView.cs" />
     <Compile Include="Assets\Scripts\GameSystem\Utils\AStarPathFinding.cs" />
     <Compile Include="Assets\Scripts\GameSystem\Utils\PositionExtensions.cs" />
+    <Compile Include="Assets\Scripts\GameSystem\Abilities\BombAbility.cs" />
     <Compile Include="Assets\Scripts\GameSystem\BoardCalculations\CubeOffset.cs" />
     <Compile Include="Assets\Scripts\GameSystem\Views\TileView.cs" />
     <Compile Include="Assets\Scripts\GameSystem\Views\BoardView.cs" />
     <Compile Include="Assets\Scripts\GameSystem\Views\EnemyView.cs" />
     <Compile Include="Assets\Scripts\GameSystem\States\GameStates.cs" />
+    <Compile Include="Assets\Scripts\GameSystem\States\PlayingState.cs" />
+    <Compile Include="Assets\Scripts\GameSystem\States\EndScreenState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\GameSystem\GameSystem.asmdef" />
